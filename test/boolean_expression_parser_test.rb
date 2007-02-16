@@ -1,7 +1,7 @@
+$: << File.join(File.dirname(__FILE__), '..', 'lib') << File.dirname(__FILE__)
+
 require 'test/unit'
-require 'boolean_expression_grammar'
-require 'boolean_expression_tokenizer'
-require 'boolean_expression_evaluator'
+require 'evaluator'
 require 'fake_logger'
 
 class Numeric

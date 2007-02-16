@@ -1,6 +1,7 @@
+$: << File.join(File.dirname(__FILE__), '..', 'lib')
+
 require 'test/unit'
-require 'dhaka'
-require 'boolean_expression_tokenizer'
+require 'evaluator'
 
 class TestBooleanExpressionTokenizer < Test::Unit::TestCase
   def test_tokenizes_boolean_expressions
